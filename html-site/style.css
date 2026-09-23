@@ -6,7 +6,6 @@ html,body{
     list-style-position: inside;
 }
 
-
 body{
     background-color: #E0DAF7;
 }
@@ -100,6 +99,21 @@ th, td{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Specificity Challenge:
+
+Element selector section creates a padding-top of 100px. Class selector .section-gap overrides 
+the 100px and adjusts it to 20px. Then the ID selectors
+#about and #skills override the padding-top specifications of the .section-gap class.
+
+The ID selectors #about and #skills won because classes take priority over element selectors and
+ID selectors take priority over both of them.
+
+*/
+
+section{
+    padding-top: 100px;
+}
+
 .section-gap{
     margin:0;
     padding-top: 20px;
@@ -111,7 +125,7 @@ th, td{
 }
 
 #skills{
-    padding-top:30px;
+    padding-top: 25px;
 }
 
 hr{
@@ -129,7 +143,6 @@ footer{
 strong{
     color:#4c328d
 }
-
 
 footer a{
     font-size: 25px;
