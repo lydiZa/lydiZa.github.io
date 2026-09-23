@@ -4,6 +4,7 @@ html,body{
     width:100%;
     text-align: center;
     list-style-position: inside;
+    overflow: auto;
 }
 
 body{
@@ -33,6 +34,7 @@ nav{
 }
 
 #nav-bar{
+    width: 100%;
     display: flex;
     gap:100px;
     background-color: #745BDB;
@@ -149,4 +151,24 @@ footer a{
     text-decoration: none;
     text-align: start;
     color: #4c328d;
+}
+
+@media (max-width: 600px){
+    html, body{
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+    header, nav, #nav-bar{
+        margin-right: -50px;
+        width:100%;
+        display: block;
+    }
+    table{
+        max-width: 500px;
+        min-height: fit-content;
+        height: 300px;
+        margin: 10px;
+        overflow: scroll;
+    }
 }
