@@ -6,48 +6,51 @@
         <link rel="stylesheet" href="style.css">
         <title>Personal Website</title>
     </head>
+
+
     <body>
+
         <header>
-            <h1>Portfolio</h1>
+            <h1 id="#top">Lydia Zheng Portfolio</h1>
             <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul id="nav-bar">
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#skills" class="nav-item">Skills</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <!--About Me-->
-            <section id="about">
+            <section id="about" class="section-gap">
                 <h2>About Me</h2>
-                <p2>Hi, my name is Lydia Zheng! I am a third year Computer Science student at CUNY Hunter College.</p2>
+                <p2>Hi, my name is Lydia! I am a third year Computer Science student at CUNY Hunter College.</p2>
                 <br>
                 <br>
-                <img src="assets/self.jpg" alt="A picture of me" width="270" height="200">
+                <img src="assets/self.jpg" id="selfie" alt="A picture of me">
             </section>
 
-         
 
             <!--Projects-->
-            <section id="projects">
+            <section id="projects" class="section-gap">
                 <h2>Projects</h2>
                 <ul>
                     <li>
-                        Personal Website: Created and hosted a portfolio website on Github highlighting relevant coursework and projects using HTML and CSS.
+                        <strong>Personal Website</strong>: Created and hosted a portfolio website on <em>Github</em> highlighting relevant coursework and projects using <em>HTML and CSS.</em> 
                     </li>
         
                 </ul>
             </section>
 
+        <br>
 
         <!--Skills and Coursework-->
 
-            <section id="skills">
+            <section id="skills" class="section-gap">
                 <h2>Relevant Coursework & Skills</h2>
-                <table border="2">
+                <table>
                     <thead>
                         <tr>
                             <th>Class</th>
@@ -92,8 +95,11 @@
                 </table>
 
             </section>
+        <br>
+        <br>
+
             <!--Contact-->
-            <section id="contact">
+            <section id="contact" class="section-gap">
                 <h2>Contact Me</h2>
                 <ul>
                     <li>Email: <a href="mailto:lydiazheng001@gmail.com">lydiazheng001@gmail.com</a></li>
@@ -101,10 +107,14 @@
                 </ul>
             </section>
 
+      
+        <br>
         </main>
+
         <!--Footer-->
         <footer>
-            <p3>© Lydia Zheng 2026. All rights reserved.</p3>
+            <p3>© Lydia Zheng 2026. All rights reserved. <a href="#top">⬆</a></p3>
+
         </footer>
     </body>
 </html>
