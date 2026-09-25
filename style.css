@@ -90,7 +90,7 @@ th, td{
     margin: 0;
 }
 
-#projects{
+#projects, #about, #skills{
     margin: auto;
     justify-content: center;
     max-width: 70vw;
