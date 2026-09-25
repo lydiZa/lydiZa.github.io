@@ -90,6 +90,12 @@ th, td{
     margin: 0;
 }
 
+#projects{
+    margin: auto;
+    justify-content: center;
+    max-width: 70vw;
+}
+
 #projects ul{
     margin: 0;
 }
