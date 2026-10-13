@@ -7,57 +7,82 @@
         <title>Personal Website</title>
     </head>
 
-
     <body>
 
-        <header>
-            <h1 id="#top">Lydia Zheng Portfolio</h1>
+        <header class="header-nav">
+            <div class = "name">
+                 <h1>Lydia Zheng</h1>
+            </div>
             <nav>
                 <ul id="nav-bar">
                     <li><a href="#about" class="nav-item">About</a></li>
-                    <li><a href="#projects" class="nav-item">Experience/Projects</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#experience" class="nav-item">Experience</a></li>
                     <li><a href="#skills" class="nav-item">Coursework/Skills</a></li>
                     <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <br>
 
         <main>
             <!--About Me-->
             <section id="about" class="section-gap">
                 <h2>About Me</h2>
+                <br>
                 <p2>Hi, my name is Lydia! I am a third year Computer Science student at CUNY Hunter College.</p2>
+                <br>
                 <br>
                 <br>
                 <img src="assets/self.jpg" id="selfie" alt="A picture of me">
             </section>
-
+            <br>
+            <br>
 
             <!--Projects-->
             <section id="projects" class="section-gap">
-                <h2>Experience & Projects</h2>
-                <ul>
-                    
+                <h2>Projects</h2>
+                <br>
+
+                <ul class="project-grid">
+
+                    <li class="project-card">
+                        <div class="card-body">
+                        <h3><strong>Personal Website</strong></h3>
+                        <img src="assets/about.png" alt="Personal website">
+                        <br>
+                        <p>Created and hosted a portfolio website on <em>Github</em> highlighting relevant coursework and projects using <em>HTML and CSS.</em> </p> 
+                        </div>
+                    </li>
+
+                    <li class="project-card">
+                        <div class="card-body">
+                        <h3><strong>Pixel Art Drawer</strong></h3> 
+                        <img src="assets/pixel.png" alt="Pixel art drawer website">
+                        <br>
+                        <p>Created a pixel art drawing app on the web using <em>HTML, CSS, and Vanilla Javascript</em>.</p>
+                        </div>
+                    </li>
+
+                    <li class="project-card">
+                        <div class="card-body">
+                        <h3><strong>Desktop Screen Translator</strong></h3> 
+                        <img src="assets/translator.png" alt="Translator website">
+                        <br>
+                        <p>Engineered a real-time translation desktop overlay in Python using Tkinter and mss for high-performance screen region capture.</em>.</p>
+                        </div>
+                    </li>
+                </ul>
+            <section>
+
+            <!--Experience-->
+                <h2>Experience</h2>
+                <section id = "experience" class="section-gap">
+                    <ul>
                     <li>
                         <strong>Education</strong>: CUNY Hunter College - Expected Graduation May 2028
                     </li>
-
                     <br>
-
-                    <hr>
-                    <br>    
-                    <li>
-                        <strong>Personal Website</strong>: Created and hosted a portfolio website on <em>Github</em> highlighting relevant coursework and projects using <em>HTML and CSS.</em> 
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Pixel Art Drawer</strong>: Created a pixel art drawing app on the web using <em>HTML, CSS, and Vanilla Javascript</em>.
-                    </li>
-                    
-                    <br>
-                    <hr>
-                    <br>
-
                     <li>
                         <strong>CUNY Tech Prep Apprenticeship</strong> (Jul 2026 - Present): Selected as an apprentice of the full-stack web development course.
                         
@@ -72,7 +97,7 @@ Software Engineer focused on improving data structures, algorithms, and technica
             </section>
 
         <br>
-
+        <br>
         <!--Skills and Coursework-->
 
             <section id="skills" class="section-gap">
@@ -115,6 +140,7 @@ Software Engineer focused on improving data structures, algorithms, and technica
                 </table>
 
             </section>
+        <br>
         <br>
         <br>
 
