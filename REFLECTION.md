@@ -1,6 +1,7 @@
 # lydiZa.github.io
 
 #HW 1
+
 #1. Describe the path an HTTP Request takes from a browser to your GitHub Pages site.
 
 An HTTP Request (GET) asks for server's resource.
@@ -12,6 +13,7 @@ It connects my browser to GitHub's server. The server extracts the URI from the 
 N/A
 
 #HW 2
+
 #1. Explain the difference between flex-direction: row and flex-direction: column.
 
 flex-direction: row lines items horizontally across page from left to right
